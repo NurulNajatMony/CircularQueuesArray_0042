@@ -97,3 +97,19 @@ public:
     }
 };
 
+int main() {
+    Queues q;
+    char ch;
+
+    while (true) {
+        try {
+            cout << "\nMenu\n";
+            cout << "1. Insert data ke antrian\n";
+            cout << "2. Hapus data dari antrian\n";
+            cout << "3. Tampilkan isi antrian\n";
+            cout << "4. Keluar\n";
+            cout << "Masukkan pilihan (1-4): ";
+            cin >> ch;
+            cout << endl;
+
+  
