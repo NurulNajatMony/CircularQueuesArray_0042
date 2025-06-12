@@ -18,4 +18,8 @@ public:
         cin >> num;
         cout << endl;
 
-       
+        // Cek apakah antrian penuh
+        if ((FRONT == 0 && REAR == MAX - 1) || (FRONT == REAR + 1)) {
+            cout << "\nQueue overflow\n";
+            return;
+        }
