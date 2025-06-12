@@ -125,4 +125,15 @@ int main() {
             case '4':
                 return 0;
             default:
-               
+             cout << "Pilihan tidak valid!\n";
+                break;
+            }
+        }
+        catch (...) {
+            cout << "Terjadi kesalahan input/output. Silakan coba lagi.\n";
+        }
+    }
+
+    return 0;
+}
+     
